@@ -1,8 +1,15 @@
 package com.abiyasidalmajid2300011.tugaspertemuan2;
+import java.util.Scanner;
 
 public class JumlahASCII {
     public static void main(String[] args) {
-        char karakter1 = '1', karakter2 = '2';
+        Scanner MyInput = new Scanner(System.in);
+        char karakter1, karakter2;
+        
+        System.out.print("Masukkan karakter pertama: ");
+        karakter1 = MyInput.next().charAt(0);
+        System.out.print("Masukkan karakter kedua: ");
+        karakter2 = MyInput.next().charAt(0);
         
         int ascii1 = karakter1;
         int ascii2 = karakter2;
