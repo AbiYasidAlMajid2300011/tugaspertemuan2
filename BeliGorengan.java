@@ -11,7 +11,7 @@ public class BeliGorengan {
         System.out.print("Masukkan jumlah uang: ");
         uang = MyInput.nextInt();
 
-        System.out.print("Apakah di luar sedang hujan? (true/false)");
+        System.out.print("Apakah di luar sedang hujan? (true/false): ");
         hujan = MyInput.nextBoolean();
 
         if (uang > 5000 && !hujan) {
