@@ -16,6 +16,6 @@ public class JumlahASCII {
         
         System.out.println("Kode ASCII '1': " + ascii1);
         System.out.println("Kode ASCII '2': " + ascii2);
-        System.out.println("Jumlah dari kode ASCII '1' dan '2': " + ascii1 + " + " + ascii2 + " = " + (ascii1 + ascii2));
+        System.out.println("Jumlah dari kode ASCII '" + karakter1 + "' dan '" + karakter2 + "': " + ascii1 + " + " + ascii2 + " = " + (ascii1 + ascii2));
     }
 }
